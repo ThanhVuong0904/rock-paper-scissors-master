@@ -1,0 +1,35 @@
+.toggle {
+     max-width: 700px;
+     margin: 30px auto 0;
+     &-title {
+          color: white;
+          font-weight: 400;
+     }
+     &-bg {
+          cursor: pointer;
+          border-radius: 10rem;
+          background-color: white;
+          padding: 12px 20px;
+          position: relative;
+          width: 53px;
+     }
+     &-circle {
+          position: absolute;
+          background-color: orange;
+          top: 0;
+          left: 0;
+          right: 0;
+          width: 50%;
+          height: 100%;
+          border-radius: 50%;
+          transition: all 2s linear;
+     }
+}
+.left-0 {
+     left: 0;
+     right: unset;
+}
+.right-0 {
+     right: 0;
+     left: unset;
+}

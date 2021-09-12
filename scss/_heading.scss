@@ -1,0 +1,39 @@
+.heading {
+     padding: 20px;
+     max-width: 700px;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border: 1px solid $HeaderOutline;
+     border-radius: 10px;
+     &-title {
+          color: white;
+          &-bonus {
+               display: none;
+          }
+     }
+     &-score {
+          background-color: white;
+          padding: 10px 30px;
+          border-radius: 10px;
+          text-align: center;
+          &-title {
+               color: $ScoreText;
+          }
+          &-number {
+               color: $DarkText;
+               font-size: 45px;
+               font-weight: 500;
+          }
+     }
+     @media screen and (min-width: 375px) {
+          font-size: 14px;
+          &-score {
+               &-number {
+                    font-size: 40px;
+               }
+          }
+     }
+}
+
