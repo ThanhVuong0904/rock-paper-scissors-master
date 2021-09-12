@@ -253,7 +253,7 @@ ul {
       grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto auto;
       grid-template-rows: auto auto;
-  background-image: url(/images/bg-triangle.svg);
+  background-image: url(../images/bg-triangle.svg);
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -494,7 +494,7 @@ ul {
 }
 
 .game-bonus {
-  background-image: url(/images/bg-pentagon.svg);
+  background-image: url(../images/bg-pentagon.svg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
